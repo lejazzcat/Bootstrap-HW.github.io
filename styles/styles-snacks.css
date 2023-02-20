@@ -1,0 +1,50 @@
+.navbar {
+    background-color: teal;
+    }
+
+.button-search {
+    background-color: burlywood;
+    }
+
+main {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+    .item{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    filter: drop-shadow(0 0 0 );
+}
+
+
+.carousel {
+    margin:auto;
+    width:80%;
+    height: fit-content;
+}
+
+footer{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.content-terms>a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.logo-2{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.content-sns>img{
+    margin-left: 10px;
+}
