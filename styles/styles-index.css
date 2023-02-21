@@ -32,6 +32,18 @@ footer{
     padding: 40px 20px;
 }
 
+.list-group>a {
+    background-color: teal;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.list-group>a:hover{
+    background-color: teal;
+    color:wheat ;
+}
+
 .content-terms>a{
     display: block;
     color: white;

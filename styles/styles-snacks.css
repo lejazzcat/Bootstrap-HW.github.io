@@ -9,20 +9,26 @@
 main {
     background-color: antiquewhite;
     min-height: 100vh;
-}
+    padding: 50px;
+    }
 
-    .item{
-    color: rgb(255, 255, 255);
+section {
+    display: flex; 
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+
+
+.addtocart {
     text-decoration: none;
-    filter: drop-shadow(0 0 0 );
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: rgb(196, 148, 196);
 }
 
 
-.carousel {
-    margin:auto;
-    width:80%;
-    height: fit-content;
-}
 
 footer{
     background-color: teal;
@@ -48,3 +54,14 @@ footer{
 .content-sns>img{
     margin-left: 10px;
 }
+
+
+/* Responsive */
+@media (max-width:920px) { 
+     .card {
+        margin: 0 auto;
+           }
+    section {
+        justify-content: space-between;
+    }
+    }
