@@ -11,6 +11,13 @@ main {
     min-height: 100vh;
 }
 
+section{
+    max-width: 100vh;
+    height: fit-content;
+    padding-top: 30px;
+    margin: auto;
+}
+
     .item{
     color: rgb(255, 255, 255);
     text-decoration: none;
